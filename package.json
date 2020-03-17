@@ -1,0 +1,33 @@
+{
+  "name": "n7za",
+  "version": "1.0.0",
+  "description": "Simple Node.js wrapper for 7-zip command line (7za) with native binaries embeded(win, mac, linux), no other install needed",
+  "main": "./lib/n7za.js",
+  "bin": {
+    "n7za": "./bin/n7za"
+  },
+  "directories": {
+    "bin": "./bin",
+    "lib": "./lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhsoft88/n7za.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "p7zip",
+    "7zip",
+    "7za",
+    "7z",
+    "7-zip"
+  ],
+  "author": "zhsoft88",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhsoft88/n7za/issues"
+  },
+  "homepage": "https://github.com/zhsoft88/n7za#readme"
+}
